@@ -1,0 +1,29 @@
+.contact-section {
+  background: url('../../Assets/Image/bg-contact.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+}
+.contact-box {
+  background: #fff;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+  padding: 25px;
+}
+.form-contact {
+  margin-top: 35px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.input-rounded {
+  border: 1px solid #6543a8;
+  border-radius: 25px;
+  height: 45px;
+  margin: 0 2%;
+  text-indent: 10px;
+  width: 46%;
+}
+.contact-img {
+  margin: 0 0 0 50px;
+}

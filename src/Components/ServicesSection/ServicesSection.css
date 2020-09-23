@@ -1,0 +1,34 @@
+.services-section {
+  padding: 100px 0;
+  position: relative;
+}
+.services-section::before {
+  background: url('../../Assets/Image/left-asset.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 262px;
+}
+.services-section::after {
+  background: url('../../Assets/Image/left-asset.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  height: 100%;
+  right: 0;
+  position: absolute;
+  top: 0;
+  width: 262px;
+  transform: rotateY(180deg);
+}
+.services-section .grid-container {
+  display: flex;
+  justify-content: center;
+}
+.services-section .box-typography {
+  margin: 35px 0;
+}
