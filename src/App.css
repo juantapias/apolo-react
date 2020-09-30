@@ -12,5 +12,9 @@
   max-width: 100%;
 }
 .main {
+  margin-bottom: 56px;
   margin-top: 56px;
+}
+.p-section {
+  padding: 50px 0;
 }

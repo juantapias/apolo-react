@@ -1,0 +1,20 @@
+.about-section {
+  background: url("../../Assets/Image/bg-shape.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  width: 100%;
+}
+.makeStyles-media-9 {
+  position: relative;
+}
+.makeStyles-media-9::after {
+  background: url("../../Assets/Image/asset-circles.png");
+  bottom: 0;
+  content: "";
+  height: 150px;
+  left: 40px;
+  position: absolute;
+  width: 150px;
+}

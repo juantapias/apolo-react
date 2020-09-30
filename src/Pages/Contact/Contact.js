@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 //App components
-import Menu from '../../Components/Menu/Menu';
+import Header from '../../Components/Header/Header';
 
 const Contact = () => {
   return (
     <Fragment>
-      <Menu />
+      <Header />
     </Fragment>
   );
 }

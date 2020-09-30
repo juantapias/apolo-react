@@ -1,0 +1,24 @@
+.do-section {
+  position: relative;
+}
+.do-section::before {
+  background: url("../../Assets/Image/asset-shape.png");
+  content: "";
+  height: 269px;
+  position: absolute;
+  right: 0;
+  top: -35%;
+  width: 75px;
+}
+.makeStyles-media-10 {
+  position: relative;
+}
+.makeStyles-media-10::after {
+  background: url("../../Assets/Image/asset-circles.png");
+  content: "";
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}

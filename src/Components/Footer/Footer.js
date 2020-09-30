@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
 //Material components
 import Box from '@material-ui/core/Box/Box';
 import Container from '@material-ui/core/Container/Container';

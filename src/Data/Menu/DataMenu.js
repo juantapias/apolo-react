@@ -1,15 +1,15 @@
 export const menuData = [
   {
+    page: "Inicio",
+    path: "/"
+  },
+  {
     page: "Nosotros",
     path: "/about",
   },
   {
     page: "Servicios",
     path: "/services",
-  },
-  {
-    page: "Blog",
-    path: "/blog",
   },
   {
     page: "Contáctanos",

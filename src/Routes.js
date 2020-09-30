@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Services from './Pages/Services/Services';
 import Contact from './Pages/Contact/Contact';
+import NoMatch from './Pages/NoMatch/NoMatch';
 
 const Routes = () => {
   return (
@@ -13,6 +14,7 @@ const Routes = () => {
       <Route exact path="/about" component={About} />
       <Route exact path="/services" component={Services} />
       <Route exact path="/contact" component={Contact} />
+      <Route component={NoMatch} />
     </Switch>
   )
 }
